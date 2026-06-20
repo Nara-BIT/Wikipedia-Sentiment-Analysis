@@ -2,7 +2,7 @@
 
 A complete real-time data engineering pipeline that taps into Wikipedia's live Server-Sent Events (SSE) firehose, analyzes the natural language sentiment of editor comments using Apache Spark, and visualizes the results on a live dashboard.
 
-## 🏗️ Architecture & Tech Stack
+## 🏗️ Architecture & Tech Stack:
 
 * **Data Source:** Wikipedia Recent Changes Firehose (SSE).
 * **Ingestion (Producer):** Python script filtering for human edits and pushing to Kafka.
